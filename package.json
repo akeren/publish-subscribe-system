@@ -1,0 +1,34 @@
+{
+  "name": "publisher-server",
+  "version": "1.0.0",
+  "description": "A pub and sub system using node.js and redis",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "pub",
+    "sub",
+    "redis"
+  ],
+  "author": "Kater Akeren",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "^3.0.2"
+  }
+}
