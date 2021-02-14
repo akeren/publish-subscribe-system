@@ -8,8 +8,8 @@ subscriber.on('message', (channel, message) => {
 
 subscriber.subscribe('notify-subscriber');
 
-const subscribeEventController = (req, res) => {
-  res.send('I am the first subscriber!');
+const subscribeTwoEventController = (req, res) => {
+  res.send('I am the Second subscriber!');
 };
 
-module.exports = subscribeEventController;
+module.exports = subscribeTwoEventController;
